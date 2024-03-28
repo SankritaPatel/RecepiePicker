@@ -49,6 +49,8 @@ python recepie_picker.py
 - Clicking the "SHUFFLE" button randomly selects a recipe and displays its details, including the recipe name and ingredients.
 - Users can click the "BACK" button to return to the main menu and select another recipe.
 
+![Game Screenshot](https://github.com/SankritaPatel/RecepiePicker/blob/main/wireframe.png)
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
