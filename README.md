@@ -1,6 +1,6 @@
 # Recipe Picker
 
-This is a simple recipe picker application built using Python's Tkinter library. It allows users to randomly select a recipe from a SQLite database and view its ingredients.
+This is a simple recipe picker application built using Python's Flask Web Framework. It allows users to randomly select a recipe from a SQLite database and view its ingredients.
 
 ## Features
 
@@ -12,9 +12,7 @@ This is a simple recipe picker application built using Python's Tkinter library.
 ## Requirements
 
 - Python 3.x
-- Tkinter library
-- PIL (Python Imaging Library)
-- pyglet library
+- Flask
 - SQLite3
 
 ## Installation
@@ -40,7 +38,7 @@ pip install -r requirements.txt
 4. Run the application:
 
 ```
-python recepie_picker.py
+python app.py
 ```
 
 ## Usage
