@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel="icon" href="{{ url_for('static', filename='images/icon.ico') }}" type="image/x-icon">
+    <title>{{title}}</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/RRecipe_logo_bottom.png') }}" alt="Logo">
+    <h1>{{ title }}</h1>
+    <div class="ingredient">
+        {% for ingredient in ingredients %}
+            <div>{{ ingredient }}</div>
+            
+        {% endfor %}
+    </div>
+    <button class="back-button" onclick="window.location.href='/'">BACK</button>
+</body>
+</html>

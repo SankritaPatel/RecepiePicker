@@ -1,0 +1,46 @@
+body {
+    background-color: #3d6466;
+    color: white;
+    font-family: 'Shanti', sans-serif;
+    text-align: center;
+}
+.button {
+    background-color: #28393a;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #badee2;
+    color: black;
+}
+
+
+.ingredient {
+    background-color: #28393a;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 5px auto; /* Centering horizontally */
+    border-radius: 5px;
+    width: 500px;
+    text-align: center;
+}
+
+.back-button {
+    background-color: #28393a;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #badee2;
+    color: black;
+}

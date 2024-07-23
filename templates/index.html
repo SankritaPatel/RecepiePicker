@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecepiePicker</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel="icon" href="{{ url_for('static', filename='images/icon.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <img src="{{url_for('static', filename='images/RRecipe_logo.png')}}" alt="No Logo">
+    <h1>Are you want Recipe?</h1>
+    <button class="button" onclick="window.location.href='/recipe'">SHUFFLE</button>
+</body>
+</html>
